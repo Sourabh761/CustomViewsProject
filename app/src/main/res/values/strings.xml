@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CustomViewsProject</string>
+
+
+    <string-array name="expense_array">
+        <item>Accommodation</item>
+        <item>Meals</item>
+        <item>Travel</item>
+        <item>Telephone Bill</item>
+        <item>Office supplies</item>
+        <item>Others</item>
+
+    </string-array>
+</resources>
