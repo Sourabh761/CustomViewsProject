@@ -8,12 +8,14 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
+
 import androidx.core.content.ContextCompat;
 
 import com.example.customviewsproject.CustomViewTypeDataClass;
 import com.example.customviewsproject.R;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+
 
 public class MyEditText {
 

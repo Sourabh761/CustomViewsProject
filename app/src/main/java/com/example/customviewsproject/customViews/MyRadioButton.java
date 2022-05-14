@@ -30,7 +30,7 @@ public class MyRadioButton {
 
         //**********Radio Group*************************
         final RadioGroup radioGroup = new RadioGroup(context);
-        radioGroup.setOrientation(RadioGroup.HORIZONTAL);
+        radioGroup.setOrientation(RadioGroup.VERTICAL);
 
         final RadioButton radioButton = new RadioButton(context);
         radioButton.setText(cfvm.getInputType());

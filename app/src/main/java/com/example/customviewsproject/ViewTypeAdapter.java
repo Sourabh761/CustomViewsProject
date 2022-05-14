@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.customviewsproject.customViews.MyCheckBox;
@@ -63,7 +64,7 @@ public class ViewTypeAdapter extends RecyclerView.Adapter<ViewTypeAdapter.MyView
 
         }else {
             MyDropDown myDropDown = new MyDropDown(context,customViewTypeDataClass);
-            FrameLayout frameLayout = myDropDown.createFieldView();
+            ConstraintLayout frameLayout = myDropDown.createFieldView();
             holder.binding.frameLayout.addView(frameLayout);
 
         }
